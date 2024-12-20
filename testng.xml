@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Admin/OneDrive - TestLeaf Software Solutions Private Limited/Desktop/NED_B/RestAssured2024/src/test/java/personal/YouTubeChannelAutomation.java">
+    <classes>
+        <class name="personal.ChromeProfile">
+        <methods><include name="viewAllVideos"/></methods>
+    </class></classes>
+</test></suite>
