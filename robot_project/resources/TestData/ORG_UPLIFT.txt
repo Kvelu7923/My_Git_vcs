@@ -1,0 +1,18 @@
+[
+    {
+        "name": "John Doe",
+        "age": 30,
+        "department": "Finance",
+        "kyc_id_number": "",
+        "bank": "",
+         "description":"desc 1"
+    },
+    {
+        "name": "Jane Smith",
+        "age": 25,
+        "department": "Marketing",
+        "kyc_id_number": "",
+        "bank": "",
+         "description":"desc 1"
+    }
+]

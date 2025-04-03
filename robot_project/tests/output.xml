@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.0 on win32)" generated="2025-04-03T12:54:17.110369" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suite" source="C:\robot_project\tests\test_suite.robot">
+<test id="s1-t1" name="Run CSV Update Script" line="5">
+<kw name="Update CSVs From Notepad" owner="script">
+<msg time="2025-04-03T12:54:18.010325" level="INFO">Using duplicate count: 5
+ Processing ORG_GM.txt -&gt; ORG_GM.csv
+C:/robot_project/resources/TestData\ORG_GM.csv is empty or missing. Creating with headers: ['age', 'bank', 'department', 'description', 'kyc_id_number', 'name']
+Checking file: C:/robot_project/resources/TestData\ORG_GM.csv
+ORG_GM.csv updated with 10 rows.
+ Processing ORG_UPLIFT.txt -&gt; ORG_UPLIFT.csv
+C:/robot_project/resources/TestData\ORG_UPLIFT.csv is empty or missing. Creating with headers: ['age', 'bank', 'department', 'description', 'kyc_id_number', 'name']
+Checking file: C:/robot_project/resources/TestData\ORG_UPLIFT.csv
+ORG_UPLIFT.csv updated with 10 rows.
+ CSV update process completed.</msg>
+<arg>C:/robot_project/resources/TestData</arg>
+<arg>C:/robot_project/resources/TestData</arg>
+<arg>5</arg>
+<doc>Processes all .txt files in the input directory and updates corresponding CSVs.</doc>
+<status status="PASS" start="2025-04-03T12:54:17.994349" elapsed="0.015976"/>
+</kw>
+<status status="PASS" start="2025-04-03T12:54:17.993320" elapsed="0.018047"/>
+</test>
+<status status="PASS" start="2025-04-03T12:54:17.114322" elapsed="0.897994"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Suite" id="s1" pass="1" fail="0" skip="0">Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

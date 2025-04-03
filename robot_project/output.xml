@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.0 on win32)" generated="2025-04-03T12:38:09.215825" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suite" source="C:\robot_project\tests\test_suite.robot">
+<test id="s1-t1" name="Run CSV Update Script" line="5">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-04-03T12:38:09.272394" level="INFO">${DUPLICATE_COUNT} = 3</msg>
+<var>${DUPLICATE_COUNT}</var>
+<arg>3</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-04-03T12:38:09.272394" elapsed="0.000999"/>
+</kw>
+<kw name="Update CSVs From Notepad">
+<msg time="2025-04-03T12:38:09.274397" level="FAIL">No keyword with name 'Update CSVs From Notepad' found.</msg>
+<arg>resources/TestData</arg>
+<arg>resources/TestData</arg>
+<arg>${DUPLICATE_COUNT}</arg>
+<status status="FAIL" start="2025-04-03T12:38:09.274397" elapsed="0.000000">No keyword with name 'Update CSVs From Notepad' found.</status>
+</kw>
+<status status="FAIL" start="2025-04-03T12:38:09.271399" elapsed="0.003995">No keyword with name 'Update CSVs From Notepad' found.</status>
+</test>
+<status status="FAIL" start="2025-04-03T12:38:09.219016" elapsed="0.059384"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Suite" id="s1" pass="0" fail="1" skip="0">Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-03T12:38:09.267393" level="ERROR">Error in file 'C:\robot_project\tests\test_suite.robot' on line 2: Library 'resources\script.py' does not exist.</msg>
+</errors>
+</robot>
